@@ -1,0 +1,15 @@
+#red {
+  background-color: #a52a2a;
+}
+
+#light {
+  background-color: #fff3d8;
+}
+
+#normal {
+  background-color: #fff3bb;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
