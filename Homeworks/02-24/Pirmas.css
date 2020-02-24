@@ -1,0 +1,31 @@
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 25px solid;
+    border-color: #95CD8B #D0E6BB #95CD8B #95CD8B;
+    background: #ECF5E4;
+    border-radius: 50%;
+    position: relative;
+}
+.inside {
+    font-size: 3em;
+    position: absolute;
+    top: 25px;
+    left: 6px;
+}
+.Squere {
+    width: 100px;
+    height: 100px;
+    border: 25px solid;
+    border-color: #95CD8B #D0E6BB #95CD8B #95CD8B;
+    background: #ECF5E4;
+    margin-top: 20px;
+    position: relative;
+}
+.inside2 {
+    font-size: 3em;
+    position: absolute;
+    left: 7%;
+    top: 17%
+}
