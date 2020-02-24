@@ -1,0 +1,15 @@
+body {
+    background-color: #FFDEAD;
+    position: relative;
+;
+}
+p {
+    text-indent: 2em;
+    padding: 10px;
+}
+.border {
+    background-color: #B93B00 ;
+    border: 1px solid #FF0000;
+    margin: 20px auto ;
+    width: 25%;
+}
