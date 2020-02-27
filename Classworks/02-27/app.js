@@ -42,7 +42,7 @@
 //
 //
 // var atsakymas = prompt("Please enter your name", "Harry Potter");
-// console.log(atsakymas);
+// // console.log(atsakymas);
 //
 // var klausimas = prompt("bazinis uzmokestis iveskite");
 // var z = 1761463 * klausimas ;
@@ -56,9 +56,3 @@
 // let workingpeople = 1761463;
 // let budget = 8487300000;
 // document.write(`Bazinė išmoka sudarys ${baseamount * workingpeople*100/budget} % metinio Lietuvos biudžeto`);
-
-var username = vardas
-var password = master
-prompt(suveskite prisijungimo varda ir slaptazodi )
-
-
