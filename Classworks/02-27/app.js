@@ -68,7 +68,7 @@
 
 
 var name = prompt("what is your name?");
-var first = name.slice(0.1);
+var first = name.slice(0,1);
 var firstup = first.toUpperCase();
 var rest = name.slice(1,name.length);
 var fullname = firstup + rest;
