@@ -56,3 +56,20 @@
 // let workingpeople = 1761463;
 // let budget = 8487300000;
 // document.write(`Bazinė išmoka sudarys ${baseamount * workingpeople*100/budget} % metinio Lietuvos biudžeto`);
+
+
+// var tweet = prompt("compose your tweet:");
+// var tweetUnder140 = tweet.slice(0,140);
+// alert(tweetUnder140);
+// alert("You have written " + tweet.length + " characters, you have " + ( 140 - tweet.length ) + " charecters remaining.");
+
+
+// alert(prompt("compose your tweet").slice(0.140));
+
+
+var name = prompt("what is your name?");
+var first = name.slice(0.1);
+var firstup = first.toUpperCase();
+var rest = name.slice(1,name.length);
+var fullname = firstup + rest;
+alert("Hello , " + fullname );
