@@ -79,9 +79,13 @@
 
 // suns metai zmogaus metais skaiciuokle
 //
-// var dogage = prompt("Please whrite what is yours dog age? ");
+// var dogage = prompt("Please write what is yours dog age? ");
 // var humanage = ( dogage -2 ) * 4 + 21 ;
 // alert("Yours dog age in human years is : " + humanage ) ;
+
+
+
+
 
 // svorio indekso skaiciavimas bmi arba kmi
 
@@ -94,3 +98,46 @@
 // var bmi = bmiCalculator(88, 1.8);
 // console.log(bmi);
 
+
+
+
+// kauliuku imitacija dice -------
+
+// var n = Math.random();
+// // n = n * 6;
+// // n = Math.floor(n) + 1 ; // suapvalina skaiciu ir prideda 1
+// // console.log(n);
+
+
+
+
+
+/* Love score tarp vardu ---------------------------
+
+prompt("iveskite savo ir kito varda") ;
+prompt("ivesk antra varda");
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1 ;
+console.log(loveScore);
+
+alert("jusu sutapimas yra " + loveScore + " % ");
+
+ -------------------------------------------------*/
+
+// prompt("iveskite savo ir kito varda") ;
+// prompt("ivesk antra varda");
+//
+// var loveScore = Math.random() * 100;
+// loveScore = Math.floor(loveScore) + 1 ; //1-100 gaunam skaiciu
+//
+// if (loveScore > 70) {
+//     alert("jusu skaicius yra "  + loveScore + "%" + "ahubybienai");
+// }
+// else
+// {
+//     alert("jusu skaicius yra "  + loveScore + "%" );
+// }
+// console.log(loveScore);
+//
+// // alert("jusu sutapimas yra " + loveScore + " % ");
