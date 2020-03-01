@@ -66,10 +66,31 @@
 
 // alert(prompt("compose your tweet").slice(0.140));
 
+// Vardas visada is didziosios raides
 
-var name = prompt("what is your name?");
-var first = name.slice(0,1);
-var firstup = first.toUpperCase();
-var rest = name.slice(1,name.length);
-var fullname = firstup + rest;
-alert("Hello , " + fullname );
+// var name = prompt("what is your name?");
+// var first = name.slice(0,1);
+// var firstup = first.toUpperCase();
+// var rest = name.slice(1,name.length);
+// var restsmall = rest.toLocaleLowerCase();
+// var fullname = firstup + restsmall;
+// alert("Hello , " + fullname );
+
+
+// suns metai zmogaus metais skaiciuokle
+//
+// var dogage = prompt("Please whrite what is yours dog age? ");
+// var humanage = ( dogage -2 ) * 4 + 21 ;
+// alert("Yours dog age in human years is : " + humanage ) ;
+
+// svorio indekso skaiciavimas bmi arba kmi
+
+
+// function bmiCalculator(weight, height) {
+//     var bmi = weight / Math.pow(height, 2);
+//     return Math.round(bmi);
+// }
+//
+// var bmi = bmiCalculator(88, 1.8);
+// console.log(bmi);
+
