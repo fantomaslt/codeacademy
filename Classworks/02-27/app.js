@@ -141,3 +141,46 @@ alert("jusu sutapimas yra " + loveScore + " % ");
 // console.log(loveScore);
 //
 // // alert("jusu sutapimas yra " + loveScore + " % ");
+
+
+// pirma uzduotis
+// let num=("3");
+// alert(num);
+// //antra uzduotis
+// let a=10;
+// let b=2;
+// document.write(' suma =  ', a+b, " skirtumas =  ", a-b, " daugyba = ", a*b, " dalyba = ", a/b);
+// // Trecia uzduotis
+// let c=15;
+// let d=2;
+// let result= c+d;
+// document.write("kintamuju suma yra = ", result);
+// //ketvirta uzduotis
+// let a=17;
+// let b=10;
+// let c=a-b;
+// let d=7;
+// let result=c+d;
+// document.write(c,result);
+// // Penkta uzduotis
+// let str="Hello World!";
+// document.write(str);
+// //Sesta uzduotis
+// let str1="Hello";
+// let str2="world!";
+// document.write(str1," ",str2);
+// //Septinta uzduotis
+// let myName="Karolis";
+// document.write("Hello, ", myName);
+// //Astunta uzduotis
+// let age=34;
+// document.write("'I`am ", age , " old!'");
+// //Devinta uzduotis
+// let username=prompt("What's your name? ");
+// alert(" Your name " + username);
+
+
+
+
+
+
