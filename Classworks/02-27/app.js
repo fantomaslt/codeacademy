@@ -180,7 +180,23 @@ alert("jusu sutapimas yra " + loveScore + " % ");
 // alert(" Your name " + username);
 
 
+var  arr = ["as", "tu","jis", 'asas'];
+document.write(arr);
 
+
+document.write("<br><br><b>LESSON 3: PRINT NUMBERS FROM 1 TO 10</b><br><br>");
+
+// Create a loop of 10 elements.
+// Variable "i" starts with value 1 and while i<=10 it will increment 1 (i=i+1)
+for (var i=1; i<=100; i=i+1) {
+
+    document.write(i); // Print the current "i" number
+
+    // Print a comma followed by a space if i < 10
+    if (i<100) {
+        document.write(", ");
+    }
+}
 
 
 
