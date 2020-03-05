@@ -244,5 +244,3 @@ console.log(m.slice(0,2));
 
 var kazkas=[3,4,1,2,7];
 console.log(kazkas.);
-
-asd g g gds g
