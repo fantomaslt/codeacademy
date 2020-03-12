@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 // Parašykite funkciją, kuri grąžina skaičiaus kvadratą. Skaičius perduodamas kaip parametras.
 
 function square(number) {
