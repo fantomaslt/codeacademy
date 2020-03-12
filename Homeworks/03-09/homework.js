@@ -34,10 +34,12 @@ let days = [
     'sestadienis',
     'sekmadienis'
 ];
+
 function dayOfTheWeek(number) {
     if (number < 1 || number > 7) {
         return 'Tokios savaitės dienos nėra'
     }
-    return days[number-1];
+    return days[number - 1];
 }
+
 console.log(dayOfTheWeek(2));
