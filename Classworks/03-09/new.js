@@ -28,10 +28,10 @@
 //
 //
 
-let name = prompt("what is your name?");
-let first = name.slice(0,1);
-let firstup = first.toUpperCase();
-let rest = name.slice(1,name.length);
-let restsmall = rest.toLocaleLowerCase();
-let fullname = firstup + restsmall;
-alert("Hello , " +  );fullname
+// let name = prompt("what is your name?");
+// let first = name.slice(0,1);
+// let firstup = first.toUpperCase();
+// let rest = name.slice(1,name.length);
+// let restsmall = rest.toLocaleLowerCase();
+// let fullname = firstup + restsmall;
+// alert("Hello , " +  );fullname
