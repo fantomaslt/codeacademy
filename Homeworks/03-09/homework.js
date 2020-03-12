@@ -32,7 +32,7 @@ console.log(result(2,4, 2 ));
 // Parašykite funkciją, kuri priima kaip parametrą skaičių nuo 1 iki 7, o grąžina savaitės dieną lietuvių kalba.
 let days=['pirmadienis','antradienis','treciadienis','ketvirtadienis','penktadienis','sestadienis','sekmadienis'];
 function dayOfTheWeek(number) {
-    if (n < 0 || n > 7) {
+    if (number < 1 || number > 7) {
         return 'Tokios savaitės dienos nėra'
     }
 
