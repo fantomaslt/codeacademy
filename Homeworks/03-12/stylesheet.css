@@ -1,0 +1,18 @@
+.d-flex  {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: solid 3px green;
+
+}
+
+.firstone {
+    background-color: lightgray;
+    line-height: 1;
+    padding: 1%;
+    height: 10%;
+}
+.second {
+    margin: 10px;
+}
+
+

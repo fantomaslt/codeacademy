@@ -4,9 +4,107 @@
     <meta charset="UTF-8">
     <title>Namu darbai </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="stylesheet.css">
+    <link rel="stylesheet" type="text/css"  href="stylesheet.css">
+    <script>
+    </script>
 </head>
 <body>
-    <script src="js.js"></script>
+<div class="container">
+    <div class="d-flex flex-column bd-highlight mb-3 rounded">
+        <div class=" firstone">
+            <p> Paspaudus mygtuką iškvieskite <span style="color:red">alert("Hello Worl!")</span><p>
+        </div>
+        <div class="p-2 align-self-center second">
+            <button type="button" class=" btn-primary btn-lg">Click on me</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="d-flex flex-column bd-highlight mb-3 rounded " >
+        <div class=" firstone">
+            <p> Įvestai reikšmei priklauso nuo paspausto mygtuko keičiame registrą (Didelės|Mažos raidės)<p>
+        </div>
+        <div class="p-2 align-self-center second">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="FIll me in" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+                <div class="input-group-append" id="button-addon4">
+                    <button class="btn btn-outline-secondary" type="button">To Upper Case</button>
+                    <button class="btn btn-outline-secondary" type="button">To Lower Case</button>
+                    <button class="btn btn-outline-secondary" type="button">First Upper Case</button>
+                    <button class="btn btn-outline-secondary" type="button">First Lowe Case</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="d-flex flex-column bd-highlight mb-3 rounded">
+        <div class=" firstone">
+            <p> Paspaudus mygtuką  patikrinkite įvestas reikšmes ir jeigu reikia parodykite klaidų pranešimus<p>
+            <ul>
+                <li> <span style="color:gray">element show/hide</span></li>
+                <li> <span style="color:gray">class add/remove</span></li>
+            </ul>
+        </div>
+        <div class="second  p-2 bd-highlight">
+            <form>
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10 ">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Enter Email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label  class="col-sm-2 col-form-label">Phone number</label>
+                    <div class="col-sm-10 ">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Enter Phone Number">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-md-2">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="d-flex flex-column bd-highlight mb-3 rounded ">
+        <div class=" firstone">
+            <p> Paspaudus mygtuką užblokuokite/atbokuokite <span style="color: darkviolet">input </span> <p>
+        </div>
+        <div class="p-2 second">
+            <div class="input-group mb-3">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+                <input type="text" class="form-control" placeholder="I'am input! You can try to enter something" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon3">Button</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="d-flex flex-column bd-highlight mb-3 rounded " >
+        <div class=" firstone">
+            <p> Užvedus ant paveiksliuko pakeiskite jį<p>
+            <ul>
+                <li> <a href="url">http://i.imgur.com/PLDVxza.jpg</a></li>
+                <li> <a href="url">http://i.imgur.com/PLDVxza.jpg</a></li>
+            </ul>
+        </div>
+        <div class="p-2 align-self-center second">
+            <img src="https://www.ornamentai.lt/images/stories/virtuemart/product_new/2013/01/37-1200_-bezdzione.jpg" alt="Smiley face" width="42" height="42">
+            <img src="smiley.gif" alt="Smiley face" width="42" height="42">
+        </div>
+    </div>
+</div>
+
+<script src="js.js"></script>
 </body>
 </html>
