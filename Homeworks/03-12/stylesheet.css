@@ -18,3 +18,9 @@
     margin: 5px;
 }
 
+
+#imgg, #imgg2 {
+    width: 240px;
+    height: 200px;
+    border: solid 2px lightgray;
+}
