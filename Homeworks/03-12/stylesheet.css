@@ -3,7 +3,6 @@
     margin-top: 10px;
     margin-bottom: 30px;
     border: solid 3px #e3e3e3;
-
 }
 
 .firstone {
@@ -12,20 +11,20 @@
     padding: 1%;
     height: 10%;
 }
+
 .second {
     margin: 10px;
 }
+
 .btn-group {
     margin: 5px;
 }
-
 
 #imgg, #imgg2 {
     width: 240px;
     height: 200px;
     border: solid 2px #e3e3e3;
 }
-
 
 /* The Modal (background) */
 .modal {
