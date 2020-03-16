@@ -123,14 +123,16 @@
     <!--Dropdown  NEVEIKIA !!!-->
     <div class="container">
         <div class="d-flex flex-column bd-highlight mb-3 rounded ">
-            <div class=" firstone">
-                <p> Paspaudus ant mygtuko turi "iškristi" meniu su punktais. Paspaudus punktą turi įvykti veiksmas
+            <div class=" firstone" >
+                <p> Paspaudus ant mygtuko turi "iškristi" meniu su punktais. Paspaudus punktą turi įvykti veiksmas ( paspaudys ant spalvos numeta i puslapio virsu)
                 <p>
             </div>
-            <div class="card-body text-left" id="mod_text">
-            <h5 align="right"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate dolor dolorem ex
+            <div class="card-body text-left" id="mod_text" >
+                <div id="output">
+            <h5 align="right" > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate dolor dolorem ex
                 facilis</h5>
                 <p align="right" style="color: grey"> <strong>-- Someone famous in <i> Source Title</i> --</strong> </p>
+                </div>
             </div>
             <div class="btn-group second ">
                 <div class="btn-group">
@@ -148,9 +150,9 @@
                     Colors
                 </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">\Green</a>
-                    <a class="dropdown-item" href="#">Yellow</a>
-                    <a class="dropdown-item" href="#">Blue</a>
+                    <a class="dropdown-item" href="#" id="changeGreen">Green</a>
+                    <a class="dropdown-item" href="#" id="changeYellow">Yellow</a>
+                    <a class="dropdown-item" href="#" id="changeBlue">Blue</a>
                 </div>
             </div>
                 <div class="btn-group">
@@ -158,13 +160,13 @@
                         Border
                     </button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#" id="FullBorder" >Full Border</a>
+                        <a class="dropdown-item" href="#" id="thin">Dotted Red</a>
+                        <a class="dropdown-item" href="#" id="mix">Outset Bluer</a>
                     </div>
                 </div>
                 <div class="btn-group ">
-                    <button type="button" class="btn btn-success">Reset</button>
+                    <button type="button" class="btn btn-success" onclick="Resetbutton()" value="Reset">Reset</button>
                 </div>
             </div>
         </div>
@@ -173,7 +175,7 @@
     <div class="container">
         <div class="d-flex flex-column bd-highlight mb-3 rounded ">
             <div class=" firstone">
-                <p> Paspaudus mygtuką parodykite informaciją apie save modeliniame lange
+                <p> Paspaudus mygtuką parodykite informaciją apie save modeliniame lange ( Persimato kaikurie Mygtukai uzdejus index-z dingsta bootstrapo mygtuku nustatymai)
                 <p>
             </div>
             <div class="p-2 align-self-center second">

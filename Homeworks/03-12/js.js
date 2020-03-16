@@ -79,4 +79,37 @@ window.onclick = function(event) {
 
 
 
+// Mygtuku funkcijos spalva, cursorius, borderis
+
+// SPALVOS
+
+document.getElementById("changeGreen").onclick = function(){
+    document.getElementById("output").style.color = 'green';
+}
+document.getElementById("changeYellow").onclick = function(){
+    document.getElementById("output").style.color = 'greenyellow';
+}
+document.getElementById("changeBlue").onclick = function(){
+    document.getElementById("output").style.color = 'Blue';
+}
+
+//Borderiai
+
+document.getElementById("FullBorder").onclick = function(){
+    document.getElementById("output").style.border = "1px solid #000000";
+}
+document.getElementById("thin").onclick = function(){
+    document.getElementById("output").style.border = "thin dotted red";
+}
+document.getElementById("mix").onclick = function myFunction() {
+    document.getElementById("output").style.border = "outset blue";
+}
+
+// reset
+
+function Resetbutton() {
+    document.getElementById("Output").reset();
+}
+
+
 
