@@ -103,13 +103,6 @@ document.getElementById("thin").onclick = function(){
 }
 document.getElementById("mix").onclick = function myFunction() {
     document.getElementById("output").style.border = "outset blue";
-}
+};
 
 // reset
-
-function Resetbutton() {
-    document.getElementById("Output").reset();
-}
-
-
-
