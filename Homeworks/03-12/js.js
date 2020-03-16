@@ -2,6 +2,7 @@ function myFunction() {
     alert("Hello World!");
 }
 
+// Keiciam raide i dideles mazas ir pan
 function changeToUpperCase() {
     document.getElementById("Fill_me").value = document.getElementById("Fill_me").value.toUpperCase().replace(" ", " ")
 }
@@ -9,11 +10,6 @@ function changeToUpperCase() {
 function changeToLowerCase() {
     document.getElementById("Fill_me").value = document.getElementById("Fill_me").value.toLowerCase().replace(" ", " ")
 }
-
-
-
-
-
 
 
 
@@ -29,25 +25,17 @@ function enable() {
 
 // uzvedus pakeicia paveiksliuka
 
-
-
-
-
-document.getElementById("imgg").onmouseover = function() {mouseOver()};
-document.getElementById("imgg").onmouseout = function() {mouseOut()};
-
-function mouseOver() {
-    document.getElementById("imgg").src = "hackanm.gif";
-}
-
-function mouseOut() {
-    document.getElementById("imgg").src = "https://i.imgur.com/0DElr0H.jpg";
+function MouseRollover(MyImage) {
+        MyImage.src = "https://i.imgur.com/PLDVxza.jpg";
+    }
+function MouseOut(MyImage) {
+    MyImage.src = "https://i.imgur.com/0DElr0H.jpg";
 }
 
 
+//            Get the modal
 
 
-// Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
