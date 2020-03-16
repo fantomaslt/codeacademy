@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <script>
-    </script>
+    <script src="js.js"></script>
 </head>
 <body>
 <div>
@@ -19,7 +18,7 @@
                 <p>
             </div>
             <div class="p-2 align-self-center second">
-                <button type="button" class=" btn-primary btn-lg" onclick="myFunction()">Click on me</button>
+                <button type="button" class=" btn-primary btn-lg" onclick="alertFunction()">Click on me</button>
             </div>
         </div>
     </div>
@@ -35,17 +34,12 @@
                     <input id="Fill_me" class="form-control" placeholder="FIll me in"
                            aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
                     <div class="input-group-append" id="button-addon4">
-                        <button class="btnindx" class="btn btn-outline-secondary" type="button"
-                                onclick="changeToUpperCase()">To Upper
-                            Case
-                        </button>
-                        <button class="btnindx" class="btn btn-outline-secondary" type="button"
-                                onclick="changeToLowerCase()">To Lower
-                            Case
-                        </button>
-                        <button class="btnindx" class="btn btn-outline-secondary" type="button">First Upper Case
-                        </button>
-                        <button class="btnindx" class="btn btn-outline-secondary" type="button">First Lowe Case</button>
+                        <button  class="btn btn-outline-secondary" type="button" class="btnindx"
+                                onclick="changeToUpperCase()">To Upper Case </button>
+                        <button  class="btn btn-outline-secondary" type="button" class="btnindx"
+                                onclick="changeToLowerCase()">To Lower Case </button>
+                        <button  class="btn btn-outline-secondary" type="button" class="btnindx" onclick="FirstUpperCase()"> First Upper Case</button>
+                        <button  class="btn btn-outline-secondary" type="button" class="btnindx" onclick="FirstLowerCase()">First Lowe Case</button>
                     </div>
                 </div>
             </div>
@@ -96,18 +90,11 @@
             <div class="p-2 second">
                 <div class="input-group mb-3">
                     <div class="input-group-append">
-                        <button class="btnindx"
-                        "btn btn-outline-secondary" type="button" id="button-addon2" onclick="disable()">
-                        Button
-                        </button>
+                        <button  class="btn btn-outline-danger" type="button"  class="btnindx" onclick="disable()">Block</button>
                     </div>
-                    <input id="en/dsbl" type="text" class="form-control"
-                           placeholder="I'am input! You can try to enter something" aria-describedby="button-addon2">
+                    <label for="en/dsbl"> </label><input id="en/dsbl" type="text" class="form-control" placeholder="I'am input! You can try to enter something" aria-describedby="button-addon2">
                     <div class="input-group-append">
-                        <button class="btnindx" class="btn btn-outline-secondary" type="button" id="button-addon3"
-                                onclick="enable()">
-                            Button
-                        </button>
+                        <button class="btn btn-outline-success" class="btnindx"  type="button"  onclick="enable()">UnBlock</button>
                     </div>
                 </div>
             </div>
@@ -142,11 +129,11 @@
                 <p> Paspaudus ant mygtuko turi "iškristi" meniu su punktais. Paspaudus punktą turi įvykti veiksmas
                 <p>
             </div>
-            <blockquote> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate dolor dolorem ex
-                facilis,
-                fuga iusto, magni, necessitatibus porro sunt tempora veniam voluptates. Consectetur dicta exercitationem
-                fugiat modi officiis quas!
-            </blockquote>
+            <div class="card-body text-left" id="mod_text">
+            <h5 align="right"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cupiditate dolor dolorem ex
+                facilis</h5>
+                <p align="right" style="color: grey"> <strong>-- Someone famous in <i> Source Title</i> --</strong> </p>
+            </div>
             <div class="btn-group second ">
                 <div class="btn-group">
                     <button type="button" class="btn btn-danger">Cursor</button>
@@ -193,7 +180,6 @@
                 <div class="btn-group ">
                     <button type="button" class="btn btn-success">Borders</button>
                 </div>
-
             </div>
         </div>
     </div>
@@ -208,13 +194,15 @@
                 <button class="btn btn-primary" type="submit" id="myBtn">Lunch modal</button>
             </div>
         </div>
-        <div id="myModal" class="modal">
+        <div id="myModal" class="modal" >
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>Some text in the Modal..</p>
+                 <h3 style="text-align: center"> Aš esu Karolis Buta </h3>
+                <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum error exercitationem id illo impedit iure laboriosam minus,
+                    modi molestiae nihil nostrum numquam obcaecati perspiciatis qui reiciendis sint tempore unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aperiam dicta esse expedita facere fuga id ipsam labore magnam natus nulla quia recusandae sapiente sint tenetur ut, vitae voluptate voluptatum. Beatae? </p>
             </div>
-
         </div>
 
     </div>

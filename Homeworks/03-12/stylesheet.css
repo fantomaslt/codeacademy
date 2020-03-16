@@ -1,12 +1,13 @@
+
 .d-flex  {
     margin-top: 10px;
     margin-bottom: 30px;
-    border: solid 3px green;
+    border: solid 3px #e3e3e3;
 
 }
 
 .firstone {
-    background-color: lightgray;
+    background-color: #f8f8f8;
     line-height: 1;
     padding: 1%;
     height: 10%;
@@ -22,12 +23,9 @@
 #imgg, #imgg2 {
     width: 240px;
     height: 200px;
-    border: solid 2px lightgray;
+    border: solid 2px #e3e3e3;
 }
 
-.btnindx {
-    z-index: 1;
-}
 
 /* The Modal (background) */
 .modal {
@@ -46,7 +44,7 @@
 
 /* Modal Content */
 .modal-content {
-    z-index: 99999;
+    z-index: 1;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
@@ -69,4 +67,8 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.btnindx {
+    z-index: -1;
 }

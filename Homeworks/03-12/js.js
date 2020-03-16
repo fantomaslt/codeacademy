@@ -1,4 +1,6 @@
-function myFunction() {
+// Alert message
+
+function alertFunction() {
     alert("Hello World!");
 }
 
@@ -10,9 +12,18 @@ function changeToUpperCase() {
 function changeToLowerCase() {
     document.getElementById("Fill_me").value = document.getElementById("Fill_me").value.toLowerCase().replace(" ", " ")
 }
+function FirstUpperCase (){
+    let text_input1 = document.getElementById("Fill_me").value;
+    text_input1 = text_input1.toLowerCase();
+    document.getElementById("Fill_me").value = text_input1.charAt(0).toUpperCase()+text_input1.slice(1);
+}
 
+function FirstLowerCase (){
+    let text_input1 = document.getElementById("Fill_me").value;
+    text_input1 = text_input1.toUpperCase();
+    document.getElementById("Fill_me").value = text_input1.charAt(0).toLowerCase()+text_input1.slice(1);
 
-
+}
 
 // ijungia isjungia inputa
 function disable() {
@@ -22,6 +33,9 @@ function disable() {
 function enable() {
     document.getElementById("en/dsbl").disabled = false;
 }
+
+// tikrina pasta ir varda
+
 
 // uzvedus pakeicia paveiksliuka
 
@@ -33,8 +47,7 @@ function MouseOut(MyImage) {
 }
 
 
-//            Get the modal
-
+           // Get the modal
 
 var modal = document.getElementById("myModal");
 
@@ -56,7 +69,8 @@ span.onclick = function() {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target === modal) {
         modal.style.display = "none";
     }
 }
+
