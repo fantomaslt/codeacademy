@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    ​
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    ​
+    <title>Hello, world!</title>
+    <style>
+    /*.shape {*/
+    /*    display: none;*/
+    /*}*/
+    /*#a {*/
+    /*    display: none;*/
+    /*    }*/
+    /*#b {*/
+    /*    display: none;*/
+    /*}*/
+    /*#c {*/
+    /*    display: none;*/
+    /*}*/
+    </style>
+</head>
+<body>
+<div class="container py-5">
+    <div class="row">
+        <div class="col-6">
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-secondary" data-some-id="b1">Button 1</button>
+                <button type="button" class="btn btn-secondary" data-some-id="b2">Button 2</button>
+                <button type="button" class="btn btn-secondary" data-some-id="b3">Button 3</button>
+                <button type="button" class="btn btn-secondary" data-some-id="b4">Button 4</button>
+                <button type="button" class="btn btn-secondary" data-some-id="b5">Button 5</button>
+                <button type="button" class="btn btn-secondary" data-some-id="b6">Button 6</button>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="some-radio" id="some-radio-1" value="option1">
+                <label class="form-check-label" for="some-radio-1">
+                    Radio 1
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="some-radio" id="some-radio-2" value="option2">
+                <label class="form-check-label" for="some-radio-2">
+                    Radio 2
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="some-radio" id="some-radio-3" value="option3">
+                <label class="form-check-label" for="some-radio-3">
+                    Radio 3
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="some-radio" id="some-radio-4" value="option4">
+                <label class="form-check-label" for="some-radio-4">
+                    Radio 4
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="cs">
+
+    <div class="shape" id="a" style="display:none;"> <h1> BLA BLA BLA </h1> </div>
+    <div class="shape" id="b" style="display:none;"> <h1> CLA CLA LCA </h1> </div>
+<!--    <div class="shape" id="c" .style="display:none;"><h1>CHBAS JUCAJ CUJABC</h1>-->
+<!--    </div>-->
+
+</div>
+
+<script>
+    function doSomething(value) {
+        switch (value) {
+            case 'b1':
+                // alert ("aaa");
+                document.getElementById("a").style.display = "block";
+                break;
+
+            case 'option1':
+                // alert ("bbb");
+                document.getElementById("a").style.display = "block";
+                break;
+
+            case 'b2':
+                // alert("aaa");
+                document.getElementById ("b").style.display = "block";
+                break;
+
+            case 'option2':
+                // alert("bbb");
+                document.getElementById ("b").style.display = "block";
+                break;
+
+            default:
+
+
+                break;
+        }
+    }
+
+
+
+        let buttons = document.querySelectorAll ('.btn-group-vertical > button');
+
+        for (let button of buttons) {
+            button.addEventListener ('click', function () {
+                // console.log('Button ->', this.textContent, this.getAttribute('data-some-id'));
+
+                doSomething (this.getAttribute ('data-some-id'));
+            });
+        }
+
+
+        let radios = document.querySelectorAll ('input[type="radio"][name="some-radio"]');
+
+        for (let radio of radios) {
+            radio.addEventListener ('change', function () {
+                // console.log('Radio -> ', this.value);
+
+                doSomething (this.value);
+            });
+        }
+
+
+
+</script>
+</body>
+</html>

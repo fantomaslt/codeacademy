@@ -1,0 +1,127 @@
+body {
+    background-color: #95CD8B;
+}
+.hw {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    /*background-color: black;*/
+    display: block;
+    align-items: baseline;
+}
+/* FIGUROS */
+.flex-container {
+    display: flex;
+    height: 200px;
+    margin: 150px 50px 100px 150px;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+.w {
+}
+
+.squere {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    margin: 30px;
+    position: absolute;
+    display: none;
+
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #888888;
+    position: absolute;
+    display: none;
+
+
+}
+.Triangle {
+    width: 0;
+    height: 0;
+    border-top: 72px solid transparent;
+    border-bottom: 72px solid transparent;
+    border-left: 72px solid green;
+    margin: 102px;
+    position: absolute;
+    display: none;
+
+}
+.diamond {
+width: 0;
+height: 0;
+border: 75px solid transparent;
+border-bottom-color: red;
+position: relative;
+top: -75px;
+    display: none;
+}
+.diamond:after {
+    content: '';
+    position: absolute;
+    left: -75px;
+    top: 75px;
+    width: 0;
+    height: 0;
+    border: 75px solid transparent;
+    border-top-color: red;
+}
+
+
+.pacman {
+    width: 0;
+    height: 0;
+    border-right: 73px solid transparent;
+    border-top: 73px solid red;
+    border-left: 73px solid red;
+    border-bottom: 73px solid red;
+    border-top-left-radius: 73px;
+    border-top-right-radius: 73px;
+    border-bottom-left-radius: 73px;
+    border-bottom-right-radius: 73px;
+    position: absolute;
+    display: none;
+}
+
+
+.btn-all {
+    box-shadow: inset 0px 0px 18px -6px #97c4fe;
+    background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+    background-color: #3d94f6;
+    border-radius: 12px;
+    border: 1px solid #337fed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS, serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 29px;
+    text-decoration: none;
+    text-shadow: 0 0px 47px #1570cd;
+    margin: 0 30% 0 30%;
+}
+
+.btn-start-stop {
+    box-shadow: inset 0px 0px 18px -6px #97c4fe;
+    background: linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+    background-color: #3d94f6;
+    border-radius: 12px;
+    border: 1px solid #337fed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Trebuchet MS, serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 29px;
+    text-decoration: none;
+    text-shadow: 0 0px 47px #1570cd;
+    margin: 20px 40% 0 40%;
+}
